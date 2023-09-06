@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "toc-showtags": true,
+    "toc-showmarkdowntxt": true,
+    "toc-autonumbering": true,
+    "toc-showcode": false,
+    "language_info": {
+      "name": ""
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "#prevalence\npopulation = int(input(\"Population: \"))\nexistingcases = int(input(\"Existing Cases: \"))\nprevalence = existingcases / population\nprint (prevalence)\n\npopulation: 1780000\nexisting cases: 99",
+      "metadata": {
+        "tags": [],
+        "trusted": true
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "print(prevalence * 100000)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "print ()",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "# incidence\nnewcases = int(input(\"New Cases: \"))\nincidence = newcases / population\nprint(incidence)\nprint(incidence * 100000)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "New Case: 19\n1.0674157303370787e - 05",
+      "metadata": {
+        "tags": []
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "# mortality rate\ndead = int(input(\"Number of people who died: \"))\nsegment = int(input(\"Number of those who had the disease: \"))\nmortalityrate = dead / segment\nprint(mortalityrate)\nprint(mortalityrate * 100000)",
+      "metadata": {
+        "tags": []
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "number of those who died: 2\nnumber of those who had the disease: 99\n0.020202020202020204\n2020.2020202020203",
+      "metadata": {
+        "jupyter": {
+          "source_hidden": true
+        },
+        "tags": []
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "# years of potentisl life lost\nlifeexpectancy = 77\nage = [64, 74]\nprint(lifeexpectancy - ages[0])\nprint(lifeexpectancy - ages[1])\n\n13\n3",
+      "metadata": {
+        "jupyter": {
+          "source_hidden": true
+        },
+        "tags": []
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "lifelost = [13, 3]\nyppl = sum(lifelost) / len(lifelost)\nprint(yypl)\n\n8.0",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
