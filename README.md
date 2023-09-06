@@ -1,5 +1,6 @@
 # epidemiological calculator
 this is an epidemiological calculator which calculates prevalence, incidence, mortality rate and years of potential life lost.
+
 #prevalence
 population = int(input("Population: "))
 existingcases = int(input("Existing Cases: "))
